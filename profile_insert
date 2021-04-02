@@ -1,0 +1,14 @@
+INSERT
+  INTO  "TXP68182"."PROFILE" ("ID","USERNAME","PASSWORD","OLD_PASSWORD","WRONG_LOGIN_ATTEMPT","TODAY_LOGIN_ATTEMPT","IS_NOW_LOGIN","DATE","TIME","TIMESTAMP")
+  VALUES(
+0,                  	--ID  INTEGER generated always Primary Key
+'',                 	--USERNAME  VARCHAR(255)  Not null
+'',                 	--PASSWORD  VARCHAR(255)  Not null
+NULL,               	--OLD_PASSWORD  VARCHAR(1000)  
+NULL,               	--WRONG_LOGIN_ATTEMPT  INTEGER 
+NULL,               	--TODAY_LOGIN_ATTEMPT  INTEGER 
+NULL,               	--IS_NOW_LOGIN  VARCHAR(10)  
+NULL,               	--DATE  DATE 
+NULL,               	--TIME  TIME 
+NULL                	--TIMESTAMP  VARCHAR(20)  
+);
